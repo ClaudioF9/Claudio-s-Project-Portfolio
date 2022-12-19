@@ -252,7 +252,7 @@ nav ul li {
     border: whitesmoke solid 5px;
 }
 
-#label3{
+/* #label3{
     position: absolute;
     bottom: -120px;
     right: 295px;
@@ -261,7 +261,7 @@ nav ul li {
     background-color: black;
     border-radius: 25px;
     border: whitesmoke solid 5px;
-}
+} */
 
 #projThree{
     grid-area: projThree;
@@ -287,7 +287,7 @@ nav ul li {
     border-radius: 25px;
 }
 
-#label4{
+/* #label4{
     position: absolute;
     bottom: -280px;
     left: -10px;
@@ -296,7 +296,7 @@ nav ul li {
     background-color: black;
     border-radius: 25px;
     border: whitesmoke solid 5px;
-}
+} */
 
 #projFive{
     grid-area: projFive;
@@ -310,7 +310,7 @@ nav ul li {
     border-radius: 25px;
 }
 
-#label5{
+/* #label5{
     position: absolute;
     bottom: -280px;
     right: 295px;
@@ -319,16 +319,29 @@ nav ul li {
     background-color: black;
     border-radius: 25px;
     border: whitesmoke solid 5px;
-}
-
-/* @media only screen and (min-width:320px){
-
-}
-
-@media only screen and (min-width:768px){
-
-}
-
-@media only screen and (min-width:800px){
-    
 } */
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    width: 20%;    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
