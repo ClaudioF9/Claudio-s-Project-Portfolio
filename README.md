@@ -30,7 +30,7 @@ https://claudiof9.github.io/Claudio-s-Project-Portfolio/
 
 ## Screenshot
 
-
+![WebsiteScreenshot](https://user-images.githubusercontent.com/119876939/208521632-ce26646b-bf61-4e01-b5d1-10789b400338.png)
 
 ## Credits
 
