@@ -5,9 +5,6 @@ body{
 
 header {
     height: 150px;
-    /* background: linear-gradient(black white); */
-    /* background: rgb(0,0,0); */
-    /* background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); */
 }
 
 header h1 {
@@ -15,8 +12,6 @@ header h1 {
     padding:15;
     margin: 10px;
     font-size: 48px;
-    /* color: black; */
-    /* -webkit-text-stroke:2px white; */
     color: whitesmoke;
 }
 
@@ -28,26 +23,21 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
+header nav div {
     display: inline-block;
     margin-left: 25px;
 }
 
 #name{
-border-radius: 25px;
-border: whitesmoke solid 5px;
-background: #000000;
-padding: 20px; 
-width: 350px;
-height: 50px;
+    border-radius: 25px;
+    border: whitesmoke solid 5px;
+    background: #000000;
+    padding: 20px; 
+    width: 350px;
+    height: 50px;
 }
 
 .topLink{
-    /* -webkit-text-stroke:2px white; */
     color: whitesmoke;
     text-decoration: none;
     font-size: 48px;
@@ -60,30 +50,11 @@ height: 50px;
 }
 
 .selfie{
-    /* display: inline; */
     position: relative;
     border-radius: 50%;
     border: solid whitesmoke 5px;
     height: 250px;
-    /* margin-bottom: 20px; */
 }
-
-/* .topBackground { */
-    /* position: absolute; */
-    /* height: 400px; */
-    /* width: 100%; */
-    /* margin-bottom: 25px */
-    /* margin: 0; */
-    /* border: 0; */
-    /* padding: 0; */
-    /* background-image: url(../Claudio-s-Project-Portfolio/Images/pencilbackground.jpg); */
-    /* background-size: cover; */
-    /* background-position: 0% 90%; */
-    /* background-repeat: no-repeat; */
-    /* background-image: url(../Claudio-s-Project-Portfolio/Images/coding\ straight.jpg); */
-    /* background-repeat: no-repeat; */
-    /* background-position: 0% 50%; */
-/* } */
 
 #quote{
     position: relative;
@@ -99,17 +70,13 @@ height: 50px;
 }
 
 #bioGrid{
-    /* background: rgb(0, 0, 0); */
-    /* background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%); */
-    /* background: rgb(2,0,36); */
-    /* background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 51%, rgba(0,18,255,1) 100%); */
     display: grid;
-grid-template-rows: 300px 300px 300px;
-grid-template-columns: 30% 70%;
-grid-template-areas: 
-"aboutMe infoMe"
-"work projects"
-"contactMe deets";
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: 
+    "aboutMe infoMe"
+    "work projects"
+    "contactMe deets";
 }
 
 .headings{
@@ -129,7 +96,6 @@ grid-template-areas:
 
 #aboutMe{
     grid-area: aboutMe;
-    /* border-right: 3px solid rgb(255, 255, 255); */
     margin-top: 50px;
 }
 
@@ -141,59 +107,15 @@ grid-template-areas:
     border: whitesmoke solid 5px;
     background: #000000;
     margin-bottom: 50px;
-    /* height: 80px; */
 }
 
 #work{
     grid-area: work;
-    /* border-right: 3px solid rgb(255, 255, 255) */
     margin-top: 250px;
 }
 
 #projects{
     grid-area: projects;
-}
-
-#contactMe{
-    grid-area: contactMe;
-    margin-top: 400px;
-
-    /* border-right: 3px solid rgb(255, 255, 255) */
-}
-
-#deets{
-    grid-area: deets;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    /* border: whitesmoke 5px solid; */
-    /* border-radius: 25px; */
-    /* background-color: rgb(63, 6, 6); */
-    color: whitesmoke;
-    list-style-type: none;
-    padding: 100px;
-    margin-top: 350px;
-}
-
-main nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-    flex-wrap: wrap;
-}
-
-.bottomLink{
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 25px;
-    border: whitesmoke solid 5px;
-    background: #000000;
-    padding: 20px; 
-    width: 250px;
-    height: 50px;
 }
 
 .projectPort{
@@ -202,7 +124,6 @@ nav ul li {
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 1fr 1fr 1fr;
     grid-template-areas: 
-    /* "projOne projOne" */
     "projOne projOne"
     "projTwo projThree"
     "projFour projFive";
@@ -212,8 +133,6 @@ nav ul li {
     grid-area: projOne;
     background-image: url(../Claudio-s-Project-Portfolio/Images/Proj1.png);
     background-size: cover;
-    /* background-repeat: no-repeat; */
-    /* background-position: 0% 50%; */
     height: 250px;
     margin: 10px;
     border: whitesmoke 5px solid;
@@ -255,17 +174,6 @@ nav ul li {
     border: whitesmoke solid 5px;
 }
 
-/* #label3{
-    position: absolute;
-    bottom: -120px;
-    right: 295px;
-    color:whitesmoke;
-    font-size: 24px;
-    background-color: black;
-    border-radius: 25px;
-    border: whitesmoke solid 5px;
-} */
-
 #projThree{
     grid-area: projThree;
     border: 1px solid black;
@@ -290,17 +198,6 @@ nav ul li {
     border-radius: 25px;
 }
 
-/* #label4{
-    position: absolute;
-    bottom: -280px;
-    left: -10px;
-    color:whitesmoke;
-    font-size: 24px;
-    background-color: black;
-    border-radius: 25px;
-    border: whitesmoke solid 5px;
-} */
-
 #projFive{
     grid-area: projFive;
     border: 1px solid black;
@@ -313,18 +210,83 @@ nav ul li {
     border-radius: 25px;
 }
 
-/* #label5{
-    position: absolute;
-    bottom: -280px;
-    right: 295px;
-    color:whitesmoke;
-    font-size: 24px;
-    background-color: black;
+#contactMe{
+    grid-area: contactMe;
+    margin-top: 400px;
+}
+
+#deets{
+    grid-area: deets;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: whitesmoke;
+    list-style-type: none;
+    padding: 100px;
+    margin-top: 350px;
+}
+
+nav div {
+    display: inline-block;
+    margin-left: 25px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.bottomLink{
+    text-decoration: none;
+    font-size: 20px;
     border-radius: 25px;
     border: whitesmoke solid 5px;
-} */
+    background: #000000;
+    padding: 20px; 
+    width: 250px;
+    height: 50px;
+}
 
-/* @media (max-width: 450px) {
-    .btn-container {
-    text-align: center;
-    } */
+
+/* 
+    @media only screen and (max-width: 1000px) {
+        .header {
+        position: absolute;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        font-size: 5px;
+        }
+
+        .selfie {
+        position: absolute;
+        top: 10px;
+        right: 10px; 
+        }
+}
+
+    @media only screen and (max-width: 600px) {
+        #headline {
+        position: static;
+        margin: 20px;
+        }
+        .header {
+        position: absolute;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        font-size: 5px;
+
+        #heroGrid {
+        grid-template-areas:
+        "featuredProduct featuredProduct"
+        "secondaryProduct CTA";
+        }
+        #categoryGrid {
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "bookcases"
+            "bedroom"
+            "patio"
+            "couches"
+            "desks"
+        ;
+        } */
