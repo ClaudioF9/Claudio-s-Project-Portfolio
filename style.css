@@ -85,8 +85,8 @@ height: 50px;
 
 #quote{
     position: relative;
-    top: -230px;
-    left:400px;
+    top: -180px;
+    left:520px;
     color: white;
     font-size: 24px;
     border-radius: 25px;
@@ -215,7 +215,6 @@ nav ul li {
     margin: 10px;
     border: whitesmoke 5px solid;
     border-radius: 25px;
-
 }
 
 
@@ -244,7 +243,7 @@ nav ul li {
 
 #label2{
     position: absolute;
-    bottom: 30px;
+    bottom: -120px;
     left: -15px;
     color:whitesmoke;
     font-size: 24px;
@@ -252,6 +251,18 @@ nav ul li {
     border-radius: 25px;
     border: whitesmoke solid 5px;
 }
+
+#label3{
+    position: absolute;
+    bottom: -120px;
+    right: 295px;
+    color:whitesmoke;
+    font-size: 24px;
+    background-color: black;
+    border-radius: 25px;
+    border: whitesmoke solid 5px;
+}
+
 #projThree{
     grid-area: projThree;
     border: 1px solid black;
@@ -276,6 +287,17 @@ nav ul li {
     border-radius: 25px;
 }
 
+#label4{
+    position: absolute;
+    bottom: -280px;
+    left: -10px;
+    color:whitesmoke;
+    font-size: 24px;
+    background-color: black;
+    border-radius: 25px;
+    border: whitesmoke solid 5px;
+}
+
 #projFive{
     grid-area: projFive;
     border: 1px solid black;
@@ -283,9 +305,20 @@ nav ul li {
     background-size: 100%;
     background-position: 0% 50%;
     margin: 10px;
-    hight: 125px;
+    height: 125px;
     border: whitesmoke 5px solid;
     border-radius: 25px;
+}
+
+#label5{
+    position: absolute;
+    bottom: -280px;
+    right: 295px;
+    color:whitesmoke;
+    font-size: 24px;
+    background-color: black;
+    border-radius: 25px;
+    border: whitesmoke solid 5px;
 }
 
 /* @media only screen and (min-width:320px){
